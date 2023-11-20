@@ -1,0 +1,16 @@
+{
+  "name": "Base 64 Tool",
+  "description": "Base 64 Tool",
+  "version": "1.1",
+  "manifest_version": 3,
+  "permissions": [],
+  "host_permissions": [],
+  "background": {
+    "service_worker": "background/background.js"
+  },
+  "action": {
+    "default_title": "Base64 Tool",
+    "default_icon": "icon-32.png",
+    "default_popup": "popup.html"
+  }
+}

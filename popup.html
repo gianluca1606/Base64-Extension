@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <main>
+        <div class="form">
+            <div class="title">Base64 Decode/Encode</div>
+            <div c class="subtitle">
+                Chrome extension to Decode or Encode Base64 Strings.
+            </div>
+            <div class="input-container ic2">
+                <select class="input" name="encodeTyp" id="encodeTyp">
+                    <option value="encode">Encode</option>
+                    <option value="decode">Decode</option>
+                </select>
+            </div>
+            <div class="input-container ic2">
+                <input class="input" type="text" id="string" name="string" required />
+                <div class="cut cut-short"></div>
+                <label for="string" class="placeholder">Input</label>
+            </div>
+
+            <div class="input-container ic2">
+                <input class="input" id="output" name="output" readonly style="cursor: default"> </input>
+                <div class="cut cut-short"></div>
+                <label for="output" class="placeholder">Output</>
+            </div>
+
+
+
+            <div>
+                <button type="button" id="startButton" class="submit">Start</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="popup.js"></script>
+</body>
+
+</html>
